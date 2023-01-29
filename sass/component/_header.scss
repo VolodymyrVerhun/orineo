@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-header {
+    margin: auto;
+display: flex;
+width: 1200px;
+height: 100px;
+background-color: rgb(247, 242, 243);
+justify-content: space-around;
+align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-list {
+    display: flex;
+    margin-right: 20px;
+}
+
+
+.header-nav-list-networks {
+    display: flex;
+    flex-direction: column;
+}
+.header-nav-list-item:not(:last-child) {
+    margin-right: 10px;
+    
+}
