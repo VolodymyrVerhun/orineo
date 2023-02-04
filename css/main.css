@@ -41,7 +41,7 @@ ul {
 }
 
 .hero {
-  background-image: url(/img/pexels-photo-1092730.jpeg);
+  background-image: url(/./img/pexels-photo-1092730.jpeg);
   height: 100vh;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -165,6 +165,47 @@ ul {
   width: 1200px;
   background-color: rgb(202, 198, 157);
   margin: auto;
+}
+
+.carusel-container {
+  width: 50%;
+  margin: auto;
+  box-shadow: 1px 0px 25px 8px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 1px 0px 25px 8px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 1px 0px 25px 8px rgba(0, 0, 0, 0.61);
+  overflow: hidden;
+  position: relative;
+}
+
+.carusel-slide > img {
+  width: 100%;
+}
+
+.carusel-slide {
+  display: flex;
+  width: 100%;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: rgb(11, 10, 10);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: rgb(11, 10, 10);
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .program-container {

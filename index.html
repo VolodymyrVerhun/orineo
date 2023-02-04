@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
@@ -98,6 +99,24 @@
             <section class="result">
                 <div class="result-container">
                     <h2>Результати учасників</h2>
+                    <div class="carusel-container">
+                        <i class="fa-solid fa-arrow-right" id="nextBtn" ></i>
+                        <i class="fa-solid fa-arrow-left" id="prevBtn" ></i>
+                       <div class="carusel-slide">
+                                <img src="./img/result/Зоряна.jpg" id="lastClone" alt="Зоряна">
+                                <img src="./img/result/Валентина.jpg" alt="Валентина">
+                                <img src="./img/result/Галина.jpg" alt="Галина">
+                                <img src="./img/result/Джозефіна.jpg" alt="Джозефіна">
+                                <img src="./img/result/Ірина.jpg" alt="Ірина">
+                                <img src="./img/result/Ярослава.jpg" alt="Ярослава">
+                                <img src="./img/result/Оля.jpg" alt="Оля">
+                                <img src="./img/result/Юрій.jpg" alt="Юрій">
+                                <img src="./img/result/Зоряна.jpg" alt="Зоряна">
+                                <img src="./img/result/Валентина.jpg" id="frstClone" alt="Валентина">   
+                       </div>
+                    </div>
+                    <!-- <button id="prevBtn"> Prev</button>
+                    <button id="nextBtn"> Next</button> -->
                 </div>
             </section>
             <section class="program">
@@ -112,5 +131,6 @@
             <h2>Контакти</h2>
         </div>
     </footer>
+    <script src="./scriptSlider.js" type="module"></script>
 </body>
 </html>
